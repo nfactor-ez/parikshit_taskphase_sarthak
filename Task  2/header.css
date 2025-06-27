@@ -1,0 +1,97 @@
+.header{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(8, 8, 8);
+    z-index: 100;
+    color: aliceblue;
+    height: 60px;
+    font-family: Roboto,Arial;
+
+}
+.left-section
+{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px ;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    
+}.right-section {
+  width: 200px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ margin-right: 50px;
+}
+.parikshit-logo{
+    width: 60px;
+    background-color: black ;
+    margin-left: 390px;
+    cursor: pointer;
+
+}
+.explore-text{
+    margin-right: 20px;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+}
+.search-bar{
+     background-color: black;
+  color: white;
+  border: 1px solid #666;       
+  padding: 6px 8px;
+  font-size: 12px;
+  width: 130px;   
+  margin-left: -15px;
+}
+.search-bar::placeholder{
+    font-family: Arial,Roboto ;
+            
+}
+.subsystem-text{
+    margin-left: -100px;
+    cursor: pointer; 
+    padding: 10px;
+}
+.subsystem-text:hover{
+     border: 2px solid ;
+    
+    border-color: blue;
+}
+.Team-text:hover{
+     border: 2px solid ; 
+
+    border-color: blue;
+}.gallery-text:hover{
+     border: 2px solid; 
+
+    border-color: blue;
+}
+.Team-text{
+     padding: 10px;
+     cursor: pointer;
+     
+}.gallery-text{
+     
+    padding: 10px;
+    cursor: pointer;
+}
+    .explore-text:hover{
+        border: 2px solid;
+        border-color: blue;
+    }

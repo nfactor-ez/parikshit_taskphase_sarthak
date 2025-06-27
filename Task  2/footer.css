@@ -1,0 +1,74 @@
+.footer{
+    
+    bottom: 0;
+    left: 0;
+    margin-left: -100px;
+    flex-direction: row;
+     display: flex;
+    flex-direction: row;
+
+    background-color: rgb(48, 44, 44);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(8, 8, 8);
+    z-index: 100;
+    color: aliceblue;
+    margin-top: 40px;
+    font-family: Roboto,Arial;
+
+
+}
+.address{
+    width: 200px;
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 2px solid;
+    margin-top: 35px;
+    border-radius: 2px;
+    padding: 15px;
+    padding-top: -10px;
+        font-family: Roboto,Arial;
+
+}       
+
+.phn
+{
+    width: 210px;
+}
+.left-section{
+   
+}
+.r1{
+    line-height: 2;
+    width: 2000px;
+    cursor: pointer;
+
+}
+.r2{
+    margin-left:-40px;
+    cursor: pointer;
+    
+}
+li{
+    line-height: 1.6;
+    width: 200px;
+}
+.Chandra{
+    width: 290px;
+    height: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Chandra1{
+    margin-bottom: -60px;
+    width: 100px;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+.r3{
+    cursor: pointer;
+}
